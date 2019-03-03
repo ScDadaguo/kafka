@@ -20,7 +20,7 @@ public class ProduceMain {
         Future<RecordMetadata> future= kafkaProducer.send(producerRecord);
         RecordMetadata recordMetadata=future.get();
         System.out.println(recordMetadata);
-//        我就是随便加一个
+//        我就是随便加一个试试
 
     }
 }
